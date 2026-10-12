@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6e7363b7-91f5-4706-909f-5aae4deedac1">
+  <producedTypes>
+    <objectType typeId="68af67aa-11d1-49a9-99f3-c850d0dcd76b" valueTypeId="a772ccb3-29ed-4213-93b8-08751e5a8492"/>
+    <refType typeId="0878a458-ed31-4dca-b027-c87b08e09208" valueTypeId="955e0b3d-bf3e-4aeb-9d58-4e1eb87967bb"/>
+    <selectionType typeId="b18852fd-4e27-4fce-aa5b-ad885a63e2a5" valueTypeId="d8ee30c2-41a8-48c4-a423-e5895e16caa7"/>
+    <listType typeId="15297689-030b-4f79-83ce-17097d5a19f9" valueTypeId="8a4a3211-0c40-4a3f-9075-a6c6002cc46f"/>
+    <managerType typeId="4157c83c-9c58-4590-af83-3cde733232d2" valueTypeId="bd4939c4-a36f-4bed-9b15-fee51b08fc51"/>
+  </producedTypes>
+  <name>Ремонт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ремонт</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Ремонт</value>
+  </objectPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.Ремонт.Form.ФормаДокумента</defaultObjectForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="b2070ba6-0805-40f2-a349-07ffa18b3e71">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2886aa50-b9db-400e-867d-e2887734e77f">
+    <name>Партнер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Партнер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Партнеры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e3b731e2-3f7f-4ae0-b812-987da6ff1891">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="24982659-5a96-4c2f-ab3b-6582f92fe803">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="6b63bb41-d0f0-4474-8f42-71afae893f17">
+    <name>ФормаДокумента</name>
+  </forms>
+  <tabularSections uuid="94b836eb-5289-4f0f-8842-50d097ff42c4">
+    <producedTypes>
+      <objectType typeId="796f0ad8-74de-4f96-a320-9a618ff2da3a" valueTypeId="b9257199-84c2-42cb-b5f1-14325fdaa8d1"/>
+      <rowType typeId="e5237270-d77b-4d5d-871c-f0a8530edd33" valueTypeId="5a8e2884-d2b9-4270-8a15-2e5f8a84bdc4"/>
+    </producedTypes>
+    <name>Товары</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товары</value>
+    </synonym>
+    <attributes uuid="ed1a8cd8-529f-4b21-b987-f4c928848fe5">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c6558113-3c25-454d-b1cc-30dce0258cfb">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="26559c02-a6ae-435f-aa94-ef8aa2b97957">
+      <name>КлючСвязи</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ключ связи</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>36</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="a550ad07-6f22-493f-8cb8-a500146f1c88">
+    <producedTypes>
+      <objectType typeId="4c85149f-c3f1-4f7f-a140-5b7bc0a74536" valueTypeId="8ebcbe00-dc20-4dbd-9033-c83be54bad37"/>
+      <rowType typeId="55d2cb8d-042c-4acf-a01b-eb5b2f716110" valueTypeId="02cf3f7c-f6cc-44e2-a001-f92441b28d1d"/>
+    </producedTypes>
+    <name>Дефекты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дефекты</value>
+    </synonym>
+    <attributes uuid="3b28b85b-6841-4d90-8d3c-48c17f5a859d">
+      <name>Дефект</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дефект</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Дефекты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="74761d91-9fb6-4a37-9f56-f763db6f98cc">
+      <name>КлючСвязи</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ключ связи</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>36</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

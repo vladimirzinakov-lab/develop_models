@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="04489c6c-ffd9-4927-8c91-b751a2115644">
+  <producedTypes>
+    <objectType typeId="0559b744-747c-49d9-a9d8-c6913fad96b3" valueTypeId="32b0b989-24ad-4f35-9ce6-eec90160ba20"/>
+    <refType typeId="5aa32716-db0e-4b1d-a3fb-6e275948cd09" valueTypeId="e45ca954-dbf8-4452-8812-05015aedb6c4"/>
+    <selectionType typeId="8556887d-af93-4321-a865-86a0cd9c1c04" valueTypeId="069c6372-336d-4cb3-bb98-db22b87bd7d8"/>
+    <listType typeId="84d1ab61-c12a-44af-a246-7e023cd90fc0" valueTypeId="fd8dbadc-68e6-417a-832b-88c3f90c6723"/>
+    <managerType typeId="fb74ce11-93d8-4e8b-8c3e-2430a4e5ea3d" valueTypeId="d84779b1-e85c-4b77-97d4-243ec98f740f"/>
+  </producedTypes>
+  <name>Партнеры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Партнеры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Партнер</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

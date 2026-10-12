@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a61da2d6-9fd6-4630-923e-04899597682c">
+  <producedTypes>
+    <objectType typeId="989f79de-e4f7-4325-b102-a514e4f38e7d" valueTypeId="b57daf0f-e516-4e94-8aba-9c721b7a5658"/>
+    <refType typeId="3aaaba2c-e7cb-4bd5-a224-34a9df3e0984" valueTypeId="b93b62c4-353f-4860-adc9-c72567096757"/>
+    <selectionType typeId="e19aab41-3f16-4e83-9ad5-baaf47de61b8" valueTypeId="a5e2a12d-5f27-4b0b-b1ce-9a32fc3119f6"/>
+    <listType typeId="188bfe63-a2fe-410d-b6ae-ed31096d3530" valueTypeId="bf46101e-85d4-45eb-b257-efc7e2e2c180"/>
+    <managerType typeId="1f1f4853-570e-43c3-bcb3-435d6615b73c" valueTypeId="18165c99-6f2d-4b5c-99a4-fde777f83ed0"/>
+  </producedTypes>
+  <name>Организации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Организации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Организация</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

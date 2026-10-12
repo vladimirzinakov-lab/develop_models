@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1e008eec-56cb-4699-91be-da89c6ea10db">
+  <producedTypes>
+    <objectType typeId="4eb575bf-f3d5-44fd-b866-1fb568793140" valueTypeId="962f023f-f760-4c23-ac1a-8ec8f977f494"/>
+    <refType typeId="1d149a26-679d-4ee2-a2be-e9c6197bdad7" valueTypeId="a67979e4-4605-4d52-a094-39de01d2e841"/>
+    <selectionType typeId="c4b7435a-fe5d-4d44-9c7e-8c3194905dfa" valueTypeId="8de95942-3dc6-41bb-b42f-227c7440d946"/>
+    <listType typeId="ac527ec8-996e-4627-a5f4-9d0c72aa0cbf" valueTypeId="1e7be657-3e01-49c4-939e-847455e96560"/>
+    <managerType typeId="928ed815-7760-4ea5-9355-025653fc4351" valueTypeId="14f16a59-ba4d-47fd-a8e8-7d104e7a1802"/>
+  </producedTypes>
+  <name>Дефекты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дефекты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Дефект</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
