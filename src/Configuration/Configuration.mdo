@@ -44,4 +44,8 @@
   <catalogs>Catalog.Партнеры</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
   <documents>Document.Ремонт</documents>
+  <documents>Document.Рекламация</documents>
+  <enums>Enum.Рекл_СостоянияРекламации</enums>
+  <dataProcessors>DataProcessor.ЗаполнениеКлючейСвязиРемонт</dataProcessors>
+  <dataProcessors>DataProcessor.ОбновлениеСостоянийРекламаций</dataProcessors>
 </mdclass:Configuration>

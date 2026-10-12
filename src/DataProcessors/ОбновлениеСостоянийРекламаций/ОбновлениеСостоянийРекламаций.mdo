@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f0a944b4-1687-43af-ad1d-c0a757c296d9">
+  <producedTypes>
+    <objectType typeId="21de0126-ddbd-45f1-80cc-2825757914d8" valueTypeId="78347cb6-1877-4dc7-8657-092ae7b231f6"/>
+    <managerType typeId="84039a71-23ba-4cb3-bfab-2840f2499541" valueTypeId="22c88304-06bf-4c25-b884-3c94a27ca7ce"/>
+  </producedTypes>
+  <name>ОбновлениеСостоянийРекламаций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновление состояний рекламаций</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ОбновлениеСостоянийРекламаций.Form.Форма</defaultForm>
+  <forms uuid="549f9b20-85b8-4447-99af-6d3eafe54dc2">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обновление состояний рекламаций</value>
+    </synonym>
+  </forms>
+</mdclass:DataProcessor>

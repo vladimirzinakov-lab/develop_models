@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5766febe-7b09-4459-89b9-eba650616af3">
+  <producedTypes>
+    <objectType typeId="b68ee9f2-3968-4519-85f5-ba43b4a484a0" valueTypeId="8b9847ca-9dfa-4d81-9533-28ac4f722780"/>
+    <managerType typeId="5cbc7672-d192-49a0-a250-bf637d5ad330" valueTypeId="7330f55a-71ca-4ecd-a08a-553b157bdef9"/>
+  </producedTypes>
+  <name>ЗаполнениеКлючейСвязиРемонт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заполнение ключей связи (Ремонт)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗаполнениеКлючейСвязиРемонт.Form.Форма</defaultForm>
+  <forms uuid="79bb9f1d-dcff-435f-bd80-84aa266e827a">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заполнение ключей связи</value>
+    </synonym>
+  </forms>
+</mdclass:DataProcessor>
